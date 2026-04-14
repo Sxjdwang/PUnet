@@ -62,7 +62,7 @@ averageCheckpoint.py aims to average the checkpoints of multiple steps, which mi
 | model.json |  Langauge model json file   | [Link](https://drive.google.com/file/d/1N8sfZQZc87dHqXhHri2SMT7rkTrYqBs2/view?usp=drive_link) |
 | video_pretraining.pt | Pretrained lipreading model | [Link](https://drive.google.com/file/d/1843WG2ZAvUceK159mySpLW2vNDAg3KSM/view?usp=drive_link) |
 
-The model is trained in 2022. The extracted audio with ffmpeg is slightly different from the current version. If you want to test our trained model, please add the following line to data/utilsstft.py (between 125th-127th lines), and use the noise file in the repo.
+The model is trained in 2022. The extracted audio with ffmpeg is slightly different from the current version. If you want to test our trained model, please add the following line to data/utilsstft.py (between 125th-127th lines), and use the noise file (https://drive.google.com/file/d/1W6AcAdEDHWaxASkb1uqglhchr5IWCU2f/view?usp=drive_link).
 ```
 inputAudio = np.concatenate((np.zeros(1024), inputAudio), axis=0)
 ```
